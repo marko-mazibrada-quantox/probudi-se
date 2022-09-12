@@ -1,15 +1,16 @@
-import "./App.css";
-import { QueryClientProvider } from "react-query";
-import { ReactQueryDevtools } from "react-query/devtools";
-import { CssBaseline, ThemeProvider } from "@mui/material";
-import { BrowserRouter } from "react-router-dom";
+import './App.css';
+import { QueryClientProvider } from 'react-query';
+import { ReactQueryDevtools } from 'react-query/devtools';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import { BrowserRouter } from 'react-router-dom';
 
-import Router from "routing/Router";
-import QueryClientSetup from "config/queryClientSetup";
-import { theme } from "config/theme/theme";
+import Router from 'routing/Router';
+import QueryClientSetup from 'config/queryClientSetup';
+import { theme } from 'config/theme/theme';
 
 const queryClient = QueryClientSetup();
 
+// hehe
 function App() {
   return (
     <BrowserRouter>
