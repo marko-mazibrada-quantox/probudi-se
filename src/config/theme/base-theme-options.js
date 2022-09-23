@@ -1,6 +1,4 @@
-import { ThemeOptions } from '@mui/material';
-
-export const baseThemeOptions: ThemeOptions = {
+export const baseThemeOptions = {
   breakpoints: {
     values: {
       xs: 0,
