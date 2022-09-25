@@ -9,7 +9,6 @@ import { useGetUser } from 'services/query/useGetUser';
 export const Profile = () => {
   const isMobile = useMediaQuery(theme => theme.breakpoints.down('desktop'));
   const { data, isLoading, isError } = useGetUser();
-  debugger;
   return (
     <Box sx={{ padding: '50px' }}>
       <Container>
